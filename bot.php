@@ -3,6 +3,7 @@ $access_token = '1q6Hx3nhfedgtNAM7B5gxuvR5U5qyYOn6B647V29Usz4SxwhZAWENMVk4ggm3DB
 
 // Get POST body content
 $content = file_get_contents('php://input');
+echo $content;
 // Parse JSON
 $events = json_decode($content, true);
 // Validate parsed JSON data
